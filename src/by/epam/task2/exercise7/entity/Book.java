@@ -1,20 +1,20 @@
-package by.epam.task2.exercise8;
-
-import java.util.Comparator;
+package by.epam.task2.exercise7.entity;
 
 /**
  * Created by Davud_Murtazin on 9/27/2016.
  */
-public class Book{
+public class Book implements Comparable<Book>{
     private String title;
     private String author;
     private int price;
     private static int etition;
+    private int isbn;
 
-    public Book(String title, String author, int price) {
+    public Book(String title, String author, int price, int isbn) {
         this.title = title;
         this.author = author;
         this.price = price;
+        this.isbn = isbn;
     }
 
     public String getTitle() {
@@ -28,8 +28,6 @@ public class Book{
     public int getPrice() {
         return price;
     }
-
-
 
     @Override
     public boolean equals(Object obj){
@@ -60,6 +58,11 @@ public class Book{
 
     @Override
     public String toString() {
-        return "Title= " + title + ", Author= " + author + ", Price= " + price;
+        return "Title= " + title + ", Author= " + author + ", Price= " + price + ", Isbn= " + isbn;
+    }
+
+    @Override
+    public int compareTo(Book obj) {
+        return (this.isbn - obj.isbn);
     }
 }

@@ -1,6 +1,6 @@
 package by.epam.task2.exercise8.controller;
 
-import by.epam.task2.exercise8.Book;
+import by.epam.task2.exercise8.entity.Book;
 import by.epam.task2.exercise8.util.LibraryUtil;
 
 import java.util.Comparator;

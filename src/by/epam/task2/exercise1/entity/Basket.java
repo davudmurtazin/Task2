@@ -1,4 +1,4 @@
-package by.epam.task2.exercise1;
+package by.epam.task2.exercise1.entity;
 
 import java.util.ArrayList;
 

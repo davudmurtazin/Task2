@@ -1,6 +1,6 @@
 package by.epam.task2.exercise1.util;
 
-import by.epam.task2.exercise1.Ball;
+import by.epam.task2.exercise1.entity.Ball;
 
 import java.util.Scanner;
 

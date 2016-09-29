@@ -1,6 +1,6 @@
 package by.epam.task2.exercise7.controller;
 
-import by.epam.task2.exercise7.Book;
+import by.epam.task2.exercise7.entity.Book;
 import by.epam.task2.exercise7.util.LibraryUtil;
 
 /**

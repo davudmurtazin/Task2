@@ -1,6 +1,6 @@
 package by.epam.task2.exercise7.util;
 
-import by.epam.task2.exercise7.Book;
+import by.epam.task2.exercise7.entity.Book;
 
 import java.util.ArrayList;
 import java.util.Collections;

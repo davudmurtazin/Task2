@@ -1,7 +1,7 @@
 package by.epam.task2.exercise1.controller;
 
-import by.epam.task2.exercise1.Ball;
-import by.epam.task2.exercise1.Basket;
+import by.epam.task2.exercise1.entity.Ball;
+import by.epam.task2.exercise1.entity.Basket;
 import by.epam.task2.exercise1.util.BallUtil;
 import by.epam.task2.exercise1.util.BasketUtil;
 

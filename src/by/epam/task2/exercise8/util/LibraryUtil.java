@@ -1,8 +1,7 @@
 package by.epam.task2.exercise8.util;
 
-import by.epam.task2.exercise8.Book;
+import by.epam.task2.exercise8.entity.Book;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;

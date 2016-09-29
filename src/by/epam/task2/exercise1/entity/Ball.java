@@ -1,4 +1,4 @@
-package by.epam.task2.exercise1;
+package by.epam.task2.exercise1.entity;
 
 /**
  * Created by Davud_Murtazin on 9/27/2016.
